@@ -1,0 +1,6 @@
+/home/apasunoori/Documents/GitHub/BootJpaProj01-CrudRepository/src/main/java/com/job/BootJpaProj01CrudRepositoryApplication.java
+/home/apasunoori/Documents/GitHub/BootJpaProj01-CrudRepository/src/main/java/com/job/entity/JobSeeker.java
+/home/apasunoori/Documents/GitHub/BootJpaProj01-CrudRepository/src/main/java/com/job/repository/IJobSeekerRepository.java
+/home/apasunoori/Documents/GitHub/BootJpaProj01-CrudRepository/src/main/java/com/job/runner/CrudRepositoryTestRunner.java
+/home/apasunoori/Documents/GitHub/BootJpaProj01-CrudRepository/src/main/java/com/job/service/IJobSeekerService.java
+/home/apasunoori/Documents/GitHub/BootJpaProj01-CrudRepository/src/main/java/com/job/service/JobSeekerServiceImpl.java

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>nit</groupId>
-	<artifactId>BootJpaProj02-PagingAndSortingRepository</artifactId>
+	<artifactId>BootJpaProj01-CrudRepository</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>BootJpaProj02-PagingAndSortingRepository</name>
+	<name>BootJpaProj01-CrudRepository</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>

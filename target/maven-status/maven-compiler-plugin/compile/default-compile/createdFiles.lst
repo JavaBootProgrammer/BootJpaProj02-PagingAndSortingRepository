@@ -1,0 +1,6 @@
+com/job/service/IJobSeekerService.class
+com/job/repository/IJobSeekerRepository.class
+com/job/service/JobSeekerServiceImpl.class
+com/job/entity/JobSeeker.class
+com/job/runner/CrudRepositoryTestRunner.class
+com/job/BootJpaProj01CrudRepositoryApplication.class
