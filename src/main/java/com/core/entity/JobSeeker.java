@@ -1,9 +1,17 @@
 //Entity class
-package com.job.entity;
+package com.core.entity;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.SequenceGenerator;
+import jakarta.persistence.Table;
+import jakarta.persistence.Transient;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
@@ -18,30 +26,30 @@ public class JobSeeker {
 	@SequenceGenerator(name="gen1",sequenceName = "jsId_seq",initialValue = 1000,allocationSize = 1)
 	@GeneratedValue(generator = "gen1",strategy = GenerationType.SEQUENCE)
 	//@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "JS_ID")
-	private Integer jobSeekerID;
-
+	@Column(name="JS_ID")
+	private Integer jsId;
+	
 	@Column(name="JS_NAME",length =20)
 	@NonNull
-	private String jobsSeekerName;
-
+	private  String  jsName;
+	
 	@Column(name="JS_QLFY",length =20)
 	@NonNull
-	private String jobSeekerQualification;
-
+	private   String  qlfy;
+	
 	@Column(name="JS_PERCENTAGE")
 	@NonNull
-	private Float JobSeekerPercentage;
-
-	@Transient
+	private   Float   percentage;
+	
+	//@Transient
 	@Column(name="JS_CONTACT_INFO")
 	@NonNull
-	private Long jobSeekerMobileNo;
-
+	private   Long    mobileNo;
+	
 	public JobSeeker() {
 		System.out.println("JobSeeker:: 0-param constructor::"+this.hashCode());
 	}
+	
+	
 
 }
-
-// TODO row creation date and time
